@@ -25,7 +25,10 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+            
             ],
             "scripts": []
           },
@@ -84,12 +87,17 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
+            
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2fc03567-f9e6-4eb8-9d09-032f8791610e"
   }
 }
